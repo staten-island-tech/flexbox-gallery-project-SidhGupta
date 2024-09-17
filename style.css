@@ -7,13 +7,27 @@ html,
     padding: 0;
 }
 
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem auto;
+}
+
+
+
+
+/*
+
 .parent{
     font-size: 30px;
     display: flex;
     justify-content: center;
 }
 
-/*
+
 .child {
     width: 28%
 }
@@ -44,6 +58,135 @@ html,
 
 .em-size {
     font-size: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 }
 
 .card {
