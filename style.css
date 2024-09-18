@@ -31,6 +31,23 @@ html,
     transition: 0.3s;
 }
 
+.card-img {
+    object-fit: contain;
+    flex: 1;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.card-header {
+    font-size: 2.2rem;
+    margin-top: 1.2rem;
+    color: white;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
 /*
 
 .parent{
