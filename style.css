@@ -39,12 +39,24 @@ body{
     transition: 0.3s;
 }
 
+
+
 .cardimage {
     width: 100%;
     height: 40rem;
     object-fit: cover;
     object-position: 50% 10%;
     padding: 10px;
+}
+
+.cardimage:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+
+}
+.cardimage:not(:hover){
+    opacity: 0.5;
+    transition: 0.5s;
 }
 
 .card-header {
