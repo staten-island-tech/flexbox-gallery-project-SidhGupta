@@ -52,20 +52,30 @@ body{
     }
 }
 
-.animation{
-    height: 2rem;
-    width: 2rem;
-
-    position: absolute;
+#animation {
+    animation: test 5s infinite;
+    text-align: center;
 }
 
 @keyframes test{
-0% {
-    left: 50%;
-    bottom: 10%;
+ 0% { 
+    background-color: green;
+ }
+ 25% {
+    background-color: greenyellow;
+ }
+ 50% {
+    background-color: rgb(3, 76, 20)
+ }
+ 75% {
+    background-color: rgb(147, 203, 62);
+ }
+ 100% {
+    background-color: rgb(192, 201, 65);
+ }
 }
 
-}
+
 
 .cardimage {
     width: 100%;
@@ -92,10 +102,9 @@ body{
         transition: all 1s ease;
 }
 
-
 #four:hover {
-    shape-outside: circle;
-    transition: 1s ease;    
+    transform: rotate(-10deg);
+    transition: 1s ease;
 }
 
 
@@ -121,7 +130,15 @@ body{
     transition: 0.7s;
 }
 
-  
+.header {
+    font-size: 5rem;
+    border: 2px solid rgba(255, 255, 255, 0.984);
+    border-radius: 55px;
+    border-width: 5px;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
 /*
 
 .parent{
