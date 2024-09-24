@@ -75,15 +75,29 @@ body{
     padding: 10px;
 }
 
-.cardimage:hover {
+#one:hover {
     transform: scale(1.5);
-    transition: 0.5s;
+    transition: 0.5s ease;
 
 }
-.cardimage:not(:hover){
-    opacity: 0.5;
-    transition: 0.5s;
+
+#two:hover {
+        filter: grayscale(100%);
+        transition: 1s ;
+        
 }
+
+#three:hover {
+        filter: brightness(150%);
+        transition: all 1s ease;
+}
+
+
+#four:hover {
+    shape-outside: circle;
+    transition: 1s ease;    
+}
+
 
 .card-header {
 
@@ -96,9 +110,17 @@ body{
     text-align: center;
 }
 
-.speed {
-
+.card-header:hover {
+    font-size: 3rem;
+    background-color: rgb(231, 239, 190);
+    border: 2px solid rgba(99, 54, 3, 0.984);
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    transition: 0.7s;
 }
+
   
 /*
 
